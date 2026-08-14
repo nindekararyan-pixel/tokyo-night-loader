@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>深夜 — loading</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- loading overlay -->
+    <div id="loader">
+        <div class="kanji-bg">深夜</div>
+        <div class="loader-core">
+            <div class="loader-eyebrow mono">SHINYA <span>/</span> 深夜</div>
+            <div class="percent mono" id="percent">0</div>
+            <div class="bar-track">
+                <div class="bar-fill" id="barFill"></div>
+            </div>
+            <div class="status-line mono" id="statusLine">initializing<span class="accent">_</span></div>
+        </div>
+    </div>
+
+    <!-- split doors -->
+    <div class="door door-left"></div>
+    <div class="door door-right"></div>
+
+    <!-- hero revealed underneath -->
+    <section id="hero">
+        <div class="hero-inner">
+            <div class="hero-eyebrow mono">now streaming</div>
+            <h1>
+                <span class="glow">late night</span> signal
+                <span class="jp">深夜 / MIDNIGHT TRANSMISSION</span>
+            </h1>
+            <p class="hero-sub">
+                A quiet frequency for the hours between dusk and dawn —
+                curated sets, ambient visuals, and stories that only
+                make sense after midnight.
+            </p>
+            <div class="hero-cta">
+                <button class="btn btn-fill">Enter shinya</button>
+                <button class="btn btn-ghost">View schedule</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
